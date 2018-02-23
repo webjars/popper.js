@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>popper.js</artifactId>
-    <version>1.12.10-SNAPSHOT</version>
+    <version>1.12.9-1-SNAPSHOT</version>
     <name>Popper.js</name>
     <description>WebJar for Popper.js</description>
     <url>http://webjars.org</url>
@@ -23,7 +23,7 @@
         <requirejs>
             {
                 "paths": {
-                    "popper.js": "popper"
+                    "popper": "popper"
                 }
             }
         </requirejs>
