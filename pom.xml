@@ -18,7 +18,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>https://github.com/FezVrasta/popper.js/archive/v${version.unsnapshot}.zip</upstream.url>
+        <upstream.url>https://github.com/FezVrasta/popper.js/archive/v${version.unrevise}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
@@ -84,7 +84,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}/dist" />
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unrevise}/dist" />
                                 </move>
                             </target>
                         </configuration>
